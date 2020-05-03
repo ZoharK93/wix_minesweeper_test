@@ -1,0 +1,36 @@
+.board-row {
+    display: block;
+    padding: 0;
+    margin: auto;
+    max-width: 100%;
+  }
+  
+  
+  .square {
+    border: 1px solid #999;
+    float: left;
+    height: 25px;
+    padding: 0;
+    text-align: center;
+    width: 25px;
+  }
+  
+  .revealed {
+    background: #fff;
+  }
+  
+  .not-revealed {
+    background: #666;
+  }
+
+  .superman {
+    background: #777;
+    color: #333;
+  }
+  
+  .game-board {
+    overflow: auto;
+    width: 100%;
+    max-height: 80vh;
+    margin: auto;
+  }

@@ -1,0 +1,11 @@
+.game {
+    overflow: auto;
+    max-width: 100%;
+    height: 90vh;
+    margin: auto;
+  }
+
+  .game-info{
+    height: 5%;
+  }
+
